@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-background text-gray-800; /* Uses our Off-White */
+}
+
+/* Global Button Style */
+.btn-primary {
+  @apply px-6 py-2 bg-banas-blue text-white font-semibold rounded-lg hover:bg-banas-blue-hover transition-colors shadow-md;
+}
+
+/* Global Link Style */
+.link-blue {
+  @apply text-banas-blue font-medium hover:underline decoration-2 underline-offset-4;
+}
